@@ -1,4 +1,4 @@
-# ✅ #Churrascometro
+# 🍽 #Churrascometro
 
 
 ![Welcome](/churrascometro.jpeg?raw=true)
