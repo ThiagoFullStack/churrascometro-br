@@ -4,7 +4,7 @@
 
 // Criancas valem por 0,5
 
-
+  
 let inputAdultos = document.getElementById('adultos');
 let inputCriancas = document.getElementById('criancas');
 let inputDuracao = document.getElementById('duracao');
@@ -24,7 +24,7 @@ function calcular() {
 
 resultado.innerHTML = `<p>${quantidadeTotalCarne} Kg de Carne<p>`
 resultado.innerHTML += `<p>${Math.ceil(quantidadeTotalCerveja / 355)} Latas de Cerveja<p>`
-resultado.innerHTML += `<p>${quantidadeTotalBebidas}ml de Bebidas<p>`
+resultado.innerHTML += `<p>${Math.ceil(quantidadeTotalBebidas / 2000)} Pet's 2L de Bebidas<p>`
 
 } 
 function carnePP(duracao) {
